@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "tasks": [
+        {
+            "label": "Run with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+e) 
+We can either use the "git pull common main" or "git fetch" and then "git merge"
+g)
+SHA1 IDs:
+-Exercises calc and main are now correctly done (Commit 1):
+SHA1 ID:76d06b34097ae32433b8aafc1f94476738e93e0a
