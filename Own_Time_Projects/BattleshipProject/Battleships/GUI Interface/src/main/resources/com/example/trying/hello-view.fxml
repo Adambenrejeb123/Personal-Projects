@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trying.HelloController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="621.0" layoutX="-12.0" layoutY="-12.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../BackgroundMain.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Logo" fitHeight="255.0" fitWidth="207.0" layoutX="187.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="welcomeText" layoutX="147.0" layoutY="14.0" />
+      <Button layoutX="252.0" layoutY="227.0" mnemonicParsing="false" onAction="#switchtoIp" prefHeight="57.0" prefWidth="78.0" text="Play" />
+      <Button fx:id="Exit" layoutX="252.0" layoutY="305.0" mnemonicParsing="false" onAction="#Test" prefHeight="57.0" prefWidth="78.0" text="Exit" />
+   </children>
+</AnchorPane>
