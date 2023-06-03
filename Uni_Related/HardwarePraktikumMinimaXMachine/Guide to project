@@ -1,0 +1,10 @@
+
+Instructions to test out the RC4 algorithm:
+
+1-Open the minimax simulator with openjdk
+2-In the Simulator open the project "Working Project"
+3-Open the "Beschreibung" and in the Memory Tab import the key the Sbox and the Encrypted data in the SPECIFIED 
+MEMORY SLOTS
+4-Run the Program in the Debugging tab
+5-In the memory tab export the data from AAC to 1454 and make sure to give it the extension .jpeg
+6-The Encrypted Data will be decrypted and saved as a jpeg image.
