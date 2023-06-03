@@ -1,0 +1,86 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "tasks": [
+        {
+            "label": "Run with Address Sanitizer 1",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../numbers.txt", "../names.txt"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run with Address Sanitizer 2",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../names.txt", "../numbers.txt"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run with Address Sanitizer 3",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../numbers.txt"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run with Address Sanitizer 4",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../test.txt"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run with Address Sanitizer 5",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../numbers.txt", "../test.txt"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        }
+    ]
+}

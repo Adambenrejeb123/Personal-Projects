@@ -1,0 +1,56 @@
+TeilAufgabe 1:
+a)
+First we made a victor v of integers with v[0] = 10 and v[1] = 9
+we then declare a pointer that points to the adress of the first element
+we dereference the pointer so we are modifying the value in the adress
+--*p == 9
+*(p1 + 1) == 9
+we do the arithmetic procedure *p1 = --*p1 * *(p1 + 1); and *p1 becomes 81
+we then print the elements on the console and they would be
+81,9
+
+b)
+
+a- Is illegal, because you cannot assign a pointer of type short to an integer i
+b- This is correct. This pointer is assogmed with the null pointer value.used to indicate that the pointer does not currently point 
+to a valid memory location.
+c- This is correct however its not pointing to i, it is rather pointing to the memory location that has the value of i in memory which is 0 who we know is the Null pointer so it is not pointing to a valid memory
+that could be pointing to anything else in the memory block
+d-This is correct, this line of code will point to the adress of i, so that we can change it how we please using defererencing
+
+c)
+So In c++ if an integer is put into an if Condition, it will execute the code in the if
+statement if the int is not 0, so if p is anything but null pointer 0 Code1 will execute, if the direferenced pointer
+*p has the value 0 Code2 will then not execute. 
+
+-Code1 executes if p is not 0.
+-Code2 executes if the value in the adress p is not 0, I.E the value located in the memory adress is not 0
+
+I think a problem would be that we could not control what block of memory a.k.a
+adress, the value p is pointing to is located, and if it is or is not a valid memory adress, so we kind of loose control of when Code1 should be executed 
+as it is randomized and Unpredictable.
+
+d) there is no real way to know if a pointer is pointing to a valid object or not unless you declare it on your code
+although we can use an if statement that checks if it is.
+
+Say we have have pointer p
+we can do 
+if(p != NULL){
+    std::cout << "Pointer is valid" << std::endl;
+}
+
+TeilAufgabe 2:
+
+a) Legal, unique pointer pointing to a dynamically allocated double 3,1415
+b) Legal, although problematic, dp2 and pd1 are both pointing to the same memory location,if pd1 gets deleted dp2
+will point regardless to the same memory location which can cause trying to free 2 times or a dangling pointer
+c)Illegal, dp is not dynamic, and unique ptr points only to dynamically allocated objects.
+d)Legal, although problematic, pd3 and pd1 will point to the same memory location which can lead to freeing 2 times
+or a dangling pointer
+e)Illegal, e is not dynamically allocated so it cannot be pointed to by unique ptr
+f)Illegal, e is not dynamically allocated so it cannot be pointed to by unique ptr
+g)Legal and can cause problems only if pd0 and pd6 are deleted
+h)Illegal, v[0] is not dynamically allocated
+i)Illegal, dr1 is not dynamically allocated
+
+

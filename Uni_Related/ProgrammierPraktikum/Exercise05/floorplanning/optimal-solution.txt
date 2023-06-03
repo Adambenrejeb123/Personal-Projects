@@ -1,0 +1,12 @@
+Floorarea: 55
+B  B  A  A  A  
+B  B  A  A  A  
+B  B  A  A  A  
+B  B  A  A  A  
+D  D  C  C  C  
+D  D  C  C  C  
+D  D  F  F  G  
+D  D  F  F  E  
+D  D  F  F  E  
+D  D  F  F  E  
+D  D  F  F  0  

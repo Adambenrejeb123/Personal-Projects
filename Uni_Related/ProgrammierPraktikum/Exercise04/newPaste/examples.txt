@@ -1,0 +1,27 @@
+paste numbers.txt names.txt 
+555-1234	Mark Smith
+555-9876	Bobby Brown
+555-6743	Sue Miller
+867-5309	Jenny Igotit
+007-0815	
+
+paste names.txt numbers.txt 
+Mark Smith	555-1234
+Bobby Brown	555-9876
+Sue Miller	555-6743
+Jenny Igotit	867-5309
+	007-0815
+
+paste numbers.txt
+555-1234
+555-9876
+555-6743
+867-5309
+007-0815
+
+paste test.txt 
+paste: test.txt: No such file or directory
+
+paste numbers.txt test.txt
+paste: test.txt: No such file or directory
+
