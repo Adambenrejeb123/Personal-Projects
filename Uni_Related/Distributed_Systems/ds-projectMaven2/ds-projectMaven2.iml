@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.google.firebase:firebase-admin:6.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client:2.7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.oauth-client:google-oauth-client:1.37.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-apache-v2:1.45.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client-gson:2.7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client:1.45.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api:api-common:2.42.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auth:google-auth-library-oauth2-http:1.30.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-storage:2.47.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-jackson2:1.45.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.apis:google-api-services-storage:v1-rev20241206-2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-core-http:2.49.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-appengine:1.45.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-storage-v2:2.47.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:grpc-google-cloud-storage-v2:2.47.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:gapic-google-cloud-storage-v2:2.47.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-opentelemetry:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry.contrib:opentelemetry-gcp-resources:1.37.0-alpha" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.cloud.opentelemetry:detector-resources-support:0.33.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-rls:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:33.4.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.22.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.auto.value:auto-value:1.6.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.18.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.18.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.18.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-firestore:3.30.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-core-grpc:2.49.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.16" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-context:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opencensus:opencensus-contrib-http-util:0.31.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.36.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-firestore-v1:3.30.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:proto-google-cloud-firestore-bundle-v1:3.30.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto.value:auto-value-annotations:1.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-protobuf:1.69.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-protobuf-lite:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:4.29.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-common-protos:2.50.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api:gax:2.59.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opencensus:opencensus-api:0.31.1" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-api:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api:gax-grpc:2.59.1" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-inprocess:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-core:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-alts:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-grpclb:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: org.conscrypt:conscrypt-openjdk-uber:2.5.2" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-auth:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-netty-shaded:1.69.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-util:1.69.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.perfmark:perfmark-api:0.27.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-googleapis:1.69.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-xds:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api:gax-httpjson:2.59.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-gson:1.45.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.48.3" level="project" />
+    <orderEntry type="library" name="Maven: org.threeten:threetenbp:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: io.grpc:grpc-stub:1.69.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auth:google-auth-library-credentials:1.30.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-core:2.49.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-iam-v1:1.45.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java-util:4.29.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-api:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-context:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry.instrumentation:opentelemetry-grpc-1.6:2.1.0-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:2.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-extension-incubator:1.35.0-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-incubator:2.1.0-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.45.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.45.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.opentelemetry:opentelemetry-api-incubator:1.45.0-alpha" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud.opentelemetry:exporter-metrics:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-monitoring:3.57.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-monitoring-v3:3.57.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.android:annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.24" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.grpc:grpc-services:1.69.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.re2j:re2j:1.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.17.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.cloud.opentelemetry:shared-resourcemapping:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry.semconv:opentelemetry-semconv:1.27.0-alpha" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+  </component>
+</module>
